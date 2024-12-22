@@ -1,0 +1,52 @@
+/* Pour rendre le bouton aussi large que l'input */
+.input-group {
+    display: flex;
+  }
+  
+  #submitButton {
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 50px;  /* Le bouton occupe toute la largeur restante */
+  }
+  
+  #submitButton:disabled {
+    background-color: lightgray;
+  }
+  
+  /* Style du tableau */
+  .table {
+    width: 100%;
+  }
+  
+  table td, table th {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  tr.completed td {
+    text-decoration: line-through;
+    color: orange;
+  }
+  
+  /* Icône de la poubelle */
+  .btn-danger .fa-trash {
+    font-size: 16px;
+  }
+  
+  /* Style des checkboxes */
+  input[type="checkbox"] {
+    margin-left: 10px;
+  }
+  
+  /* Option de hover sur les lignes de tableau */
+  tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
